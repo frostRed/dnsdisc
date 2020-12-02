@@ -34,7 +34,7 @@ tracing-subscriber = "0.2"
 
 [patch.crates-io]
 enr = { git = "https://github.com/rust-ethereum/enr", branch = "vorot93/bytes" }
-rlp = { git = "https://github.com/vorot93/parity-common", branch = "bytes" }
+rlp = { git = "https://github.com/vorot93/parity-common", branch = "rlp-bytes-fix" }
 
 [features]
 trust-dns = ["trust-dns-resolver"]
